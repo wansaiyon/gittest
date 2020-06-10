@@ -77,6 +77,8 @@ int main(void)
 
   /* USER CODE BEGIN Init */
 
+
+
   /* USER CODE END Init */
 
   if(IS_ENGINEERING_BOOT_MODE())
@@ -96,7 +98,7 @@ int main(void)
   MX_GPIO_Init();
   MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
-
+MX_GPIO_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -105,7 +107,6 @@ int main(void)
   {
 
 
-    
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
